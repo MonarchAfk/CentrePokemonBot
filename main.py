@@ -42,6 +42,9 @@ setup_boutique(bot)
 from moderation import setup_moderation
 setup_moderation(bot)
 
+from tickets import setup_tickets
+setup_tickets(bot)                            
+
 setup_commands(bot)
 setup_moderation(bot)
 setup_pokemon(bot)
