@@ -39,6 +39,9 @@ setup_economy(bot)
 from boutique import setup_boutique
 setup_boutique(bot)
 
+from moderation import setup_moderation
+setup_moderation(bot)
+
 setup_commands(bot)
 setup_moderation(bot)
 setup_pokemon(bot)
