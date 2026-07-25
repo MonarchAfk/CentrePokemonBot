@@ -34,6 +34,8 @@ async def on_ready():
     await bot.tree.sync()
 
 
+from boutique import setup_boutique
+
 setup_commands(bot)
 setup_moderation(bot)
 setup_pokemon(bot)
