@@ -33,8 +33,11 @@ async def on_ready():
 
     await bot.tree.sync()
 
+from economy import setup_economy
+setup_economy(bot)
 
 from boutique import setup_boutique
+setup_boutique(bot)
 
 setup_commands(bot)
 setup_moderation(bot)
