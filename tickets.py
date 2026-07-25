@@ -4,7 +4,7 @@ from discord import app_commands
 import config
 
 
-TICKET_CATEGORY_ID = 0  # Mets ici l'ID de ta catégorie tickets
+TICKET_CATEGORY_ID = 1530677078566113471  # Mets ici l'ID de ta catégorie tickets
 
 
 class TicketButton(discord.ui.View):
