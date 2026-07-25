@@ -10,4 +10,6 @@ NEWS_CHANNEL_ID = 0
 
 WELCOME_IMAGE = "https://i.imgur.com/example.png"
 
+NEWS_CHANNEL_ID = 1530677817895948429
+
 PREFIX = "!"
