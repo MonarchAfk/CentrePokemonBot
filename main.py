@@ -45,6 +45,9 @@ setup_moderation(bot)
 from tickets import setup_tickets
 setup_tickets(bot)                            
 
+from news import setup_news
+setup_news(bot)
+
 setup_commands(bot)
 setup_moderation(bot)
 setup_pokemon(bot)
